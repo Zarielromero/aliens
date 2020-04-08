@@ -1,0 +1,7 @@
+initial = int(input("What is the number of aliens you would like on Earth?"))
+time = int(input("How many weeks will those aliens be on Earth?"))
+
+if time == 0:
+  print("There are only",initial,"aliens on Earth")
+else:
+  print( initial * (2 ** time),"aliens will be on Earth after", time ,"weeks")  
